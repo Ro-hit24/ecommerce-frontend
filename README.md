@@ -1,2 +1,3 @@
 # ecommerce-frontend
-mern DL
+mern DL day 1
+
