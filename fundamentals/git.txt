@@ -1,0 +1,21 @@
+source code 
+
+ECommerce :
+
+Dev 1: login - code 
+
+Dev 2 : sign up - code
+
+Dev 3 : forgot passward - code 
+
+
+source control systems: 
+
+1.Maintaining sourcee code of an Application 
+
+2.Provide an efficient way of intigration (merg) of code between developers
+
+3.providesw histry of the source code (who , when commited)
+
+
+Examples: Github , svn, tfs......

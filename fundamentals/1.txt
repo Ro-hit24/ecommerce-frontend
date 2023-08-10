@@ -1,0 +1,79 @@
+fundamentals of web application
+
+
+UI- user interface - front end
+
+data processing - backend
+
+business logic - backend
+
+
+architecture: 3-Tire architecture
+
+loosely coupled   (apllication)
+
+3-tire
+
+presentation layer: user interface
+
+application layer: business logic - middleware( sedgrid, twilio ) + third party services (paypal,etc)
+
+Data Access layer: logc for database operations 
+
+
+
+4 tire
+
+
+presentation layer: user interface
+
+application layer: business logic
+
+middleware layer -third party services (paypal,etc)
+
+Data Access layer: logc for database operations
+
+
+current projects 
+
+2 Tire
+
+front end 
+presentation layer
+
+backend
+app layer + data Accesslayer
+
+
+1- tire 
+
+pl, dal, al=> one application
+
+tech stack :  spring mvc (al), hibernet (DAL), JSPs(pl)
+
+app 1 not affected
+sms services -1
+
+app 2
+sms services -2  - down 
+
+
+
+Examples
+
+ECommerce app:
+
+Agile: intervel - 1 month 
+
+user management - login (username, passward)+ features, register - Release 
+
+project management: add, update,remove 
+
+seller management- 2 months - release 
+
+delevery management 
+
+order management 
+
+1. client is involved
+2.changes are welcome and impleated

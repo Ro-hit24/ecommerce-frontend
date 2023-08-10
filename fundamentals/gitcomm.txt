@@ -1,0 +1,39 @@
+linking the Github
+
+check version 
+git -v
+
+connecting 
+git clone (code of repository)
+
+to open 
+cd (repositoryname)
+
+to configure
+git config --global user.email "email@gmail.com"
+git config --global usar.name "divya"
+
+git status 
+git status 
+
+add files 
+git add (file name)
+or git add (.)
+
+update to remote repository
+1st commit 
+git commit -m " added notes "
+
+to update 
+git push
+
+to pull changes
+git pull
+
+
+to update 
+step 1 :git status 
+step 2 : git add .
+step 3 : git status
+step 4 :git commit -m "updated by rohit"
+step 5 : git push   

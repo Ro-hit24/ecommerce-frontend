@@ -1,0 +1,108 @@
+Microsoft Windows [Version 10.0.22621.1992]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Rohit\mern-dl>git clone https://github.com/Ro-hit24/ecommerce-frontend.git
+Cloning into 'ecommerce-frontend'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 15 (delta 0), reused 6 (delta 0), pack-reused 0
+Receiving objects: 100% (15/15), done.
+
+D:\Rohit\mern-dl>cd ecommerce-frontend
+
+D:\Rohit\mern-dl\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+D:\Rohit\mern-dl\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes 2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Rohit\mern-dl\ecommerce-frontend>git add .
+
+D:\Rohit\mern-dl\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   notes 2.txt
+
+
+D:\Rohit\mern-dl\ecommerce-frontend>git commit -m " added notes "
+[main f018aa0]  added notes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 notes 2.txt
+
+D:\Rohit\mern-dl\ecommerce-frontend>
+D:\Rohit\mern-dl\ecommerce-frontend>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 0), reused 1 (delta 0), pack-reused 0
+To https://github.com/Ro-hit24/ecommerce-frontend.git
+   c103c66..f018aa0  main -> main
+
+D:\Rohit\mern-dl\ecommerce-frontend>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 711 bytes | 2.00 KiB/s, done.
+From https://github.com/Ro-hit24/ecommerce-frontend
+   f018aa0..bb7e866  main       -> origin/main
+Updating f018aa0..bb7e866
+Fast-forward
+ notes 2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+D:\Rohit\mern-dl\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   notes 2.txt
+        modified:   notes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\Rohit\mern-dl\ecommerce-frontend>git add .
+
+D:\Rohit\mern-dl\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   notes 2.txt
+        modified:   notes.txt
+
+
+D:\Rohit\mern-dl\ecommerce-frontend>git commit -m " notes updated"
+[main 01f653c]  notes updated
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+D:\Rohit\mern-dl\ecommerce-frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 398 bytes | 398.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Ro-hit24/ecommerce-frontend.git
+   bb7e866..01f653c  main -> main
+
+D:\Rohit\mern-dl\ecommerce-frontend>

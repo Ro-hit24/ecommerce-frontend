@@ -1,0 +1,14 @@
+4pm - pvr Cinima - screen 1- 5 tickets - hydrabad 15 tickets
+
+bookmyshow -4 tickets , 2 tickets, 1 tickets
+paytm - 3 tickets
+pvr site - shows 1 tickets , 1 tickets
+ticketsnew -4 tickets
+
+data providers (business)- pvr - web Services (backend)
+
+
+bus paytm .......
+
+cricbuzz - providers
+
