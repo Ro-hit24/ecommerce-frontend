@@ -1,0 +1,14 @@
+HTML..
+
+HTML is used to create static web page.
+
+Hypertext markep language
+
+markep language :
+It is a tag based language where the UI / Content is represented using tags.
+
+Tags : a tag is keyward that is enclossed in angular brackets.
+ex : <html> , <head> , <body>.....
+
+HTML is a collections of tags that provide an implemention of static web page.
+
